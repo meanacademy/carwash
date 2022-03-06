@@ -7,9 +7,21 @@
     --light: #F2F2F2;
     --dark: #111111;
 }
+a {
+    text-decoration: none;
+}
+
+.text-primary {
+    color: #D81324 !important;
+}
 
 .btn-primary{
     background-color: #D81324;
+}
+.btn-link {
+    font-weight: 400;
+    color: #D81324;
+    text-decoration: none;
 }
 
 .fw-medium {
@@ -298,10 +310,10 @@
 
 
 /*** Footer ***/
-/* .footer {
-    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../img/carousel-bg-1.jpg) center center no-repeat;
+ .footer {
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(./assets/img/carousel-bg-1.jpg) center center no-repeat;
     background-size: cover;
-} */
+} 
 
 .footer .btn.btn-social {
     margin-right: 5px;
