@@ -1,11 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
 /********** Template CSS **********/
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap');
+
+
 :root {
     --primary: #D81324;
     --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
+}
+body {
+    margin: 0;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #596277;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Barlow",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #0B2154;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #596277;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0px;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
 }
 a {
     text-decoration: none;
@@ -13,6 +51,9 @@ a {
 
 .text-primary {
     color: #D81324 !important;
+}
+.text-secondary {
+    color: #0B2154 !important;
 }
 
 .btn-primary{
@@ -100,7 +141,20 @@ a {
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
 }
-
+.nav-pills .nav-link {
+    background: none;
+    border: 0;
+    border-radius: 0px;
+}
+.nav-link:hover {
+    color: #D81324;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #D81324;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out;
+}
 @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link  {
         margin-right: 0;
@@ -146,6 +200,12 @@ a {
     }
 }
 
+.fact {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./assets/img/carousel-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*** Header ***/
 .carousel-caption {
@@ -215,11 +275,34 @@ a {
 
 
 /*** Booking ***/
-/* .booking {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-bg-2.jpg) center center no-repeat;
-    background-size: cover;
-} */
 
+.booking {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./assets/img/carousel-bg-2.jpg) center center no-repeat;
+    background-size: cover;
+} 
+.bg-primary {
+    background-color: #D81324 !important;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #0B2154;
+    border-color: #0B2154;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #596277;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
 .bootstrap-datetimepicker-widget.bottom {
     top: auto !important;
 }
