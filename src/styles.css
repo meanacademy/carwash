@@ -209,7 +209,11 @@ app-header {
 }
 
 .fact {
+<<<<<<< HEAD
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/assets/images/carousel-bg-1.jpg);
+=======
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./assets/img/carousel-bg-1.jpg);
+>>>>>>> ff172e766232cf94200a64557dd2b84c3e6f350a
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +289,11 @@ app-header {
 /*** Booking ***/
 
 .booking {
+<<<<<<< HEAD
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/assets/images/carousel-bg-2.jpg) center center no-repeat;
+=======
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./assets/img/carousel-bg-2.jpg) center center no-repeat;
+>>>>>>> ff172e766232cf94200a64557dd2b84c3e6f350a
     background-size: cover;
 } 
 .bg-primary {
@@ -418,7 +426,11 @@ app-header {
 
 /*** Footer ***/
  .footer {
+<<<<<<< HEAD
     background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(/assets/images/carousel-bg-1.jpg) center center no-repeat;
+=======
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(./assets/img/carousel-bg-1.jpg) center center no-repeat;
+>>>>>>> ff172e766232cf94200a64557dd2b84c3e6f350a
     background-size: cover;
 } 
 
