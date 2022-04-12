@@ -418,7 +418,11 @@ app-header {
 
 /*** Footer ***/
  .footer {
+<<<<<<< HEAD
     background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(/assets/images/carousel-bg-1.jpg) center center no-repeat;
+=======
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(./assets/img/carousel-bg-1.jpg) center center no-repeat;
+>>>>>>> ff172e766232cf94200a64557dd2b84c3e6f350a
     background-size: cover;
 } 
 
