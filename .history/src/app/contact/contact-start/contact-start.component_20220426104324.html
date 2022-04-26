@@ -89,14 +89,7 @@
                     name="email"
                     ngModel
                     required
-                    #email="ngModel"
                   />
-                  <div
-                    [hidden]="email.valid || (email.pristine && email.untouched)"
-                    class="alert alert-danger"
-                  >
-                    Email is required!!!
-                  </div>
                   <label for="email">Your Email</label>
                 </div>
               </div>
@@ -110,14 +103,7 @@
                     name="subject"
                     ngModel
                     required
-                    #subject="ngModel"
                   />
-                  <div
-                    [hidden]="subject.valid || (subject.pristine && subject.untouched)"
-                    class="alert alert-danger"
-                  >
-                    Subject is required!!!
-                  </div>
                   <label for="subject">Subject</label>
                 </div>
               </div>
@@ -131,14 +117,7 @@
                     name="message"
                     ngModel
                     required
-                    #message="ngModel"
                   ></textarea>
-                  <div
-                    [hidden]="message.valid || (message.pristine && message.untouched)"
-                    class="alert alert-danger"
-                  >
-                    Message is required!!!
-                  </div>
                   <label for="message">Message</label>
                 </div>
               </div>
@@ -147,6 +126,7 @@
                   class="btn btn-primary w-100 py-3"
                   type="submit"
                   [disabled]="f.invalid"
+                  (click)="onSubmit()"
                 >
                   Send Message
                 </button>

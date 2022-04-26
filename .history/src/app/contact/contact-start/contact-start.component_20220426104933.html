@@ -110,14 +110,7 @@
                     name="subject"
                     ngModel
                     required
-                    #subject="ngModel"
                   />
-                  <div
-                    [hidden]="subject.valid || (subject.pristine && subject.untouched)"
-                    class="alert alert-danger"
-                  >
-                    Subject is required!!!
-                  </div>
                   <label for="subject">Subject</label>
                 </div>
               </div>
@@ -131,14 +124,7 @@
                     name="message"
                     ngModel
                     required
-                    #message="ngModel"
                   ></textarea>
-                  <div
-                    [hidden]="message.valid || (message.pristine && message.untouched)"
-                    class="alert alert-danger"
-                  >
-                    Message is required!!!
-                  </div>
                   <label for="message">Message</label>
                 </div>
               </div>
